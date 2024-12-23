@@ -1,0 +1,6 @@
+// world.wit
+package jcofetch:hello;
+
+world hello {
+  export ping: func(s: string) -> string;
+}
