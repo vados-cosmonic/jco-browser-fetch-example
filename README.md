@@ -30,7 +30,7 @@ pnpm go
 
 You should see output like the following:
 
-<description>
+<details>
 <summary>Expected output</summary>
 
 ```
@@ -99,7 +99,7 @@ Available on:
 Hit CTRL-C to stop the server
 ```
 
-</description>
+</details>
 
 **At this point, you should be able to view the rendered `demo.html` by visiting `localhost:8080` in your
 favorite browser.**
@@ -126,7 +126,7 @@ You can turn the [JS code](./component.js) in this repository into a WebAssembly
 pnpm build:component
 ```
 
-<description>
+<details>
 <summary>Expected output</summary>
 
 You should see output like the following:
@@ -140,7 +140,7 @@ pnpm build:component
 OK Successfully written component.wasm.
 ```
 
-</description>
+</details>
 
 WebAssembly Components are built against the system interfaces available in [WASI][wasi].
 
@@ -193,7 +193,7 @@ that can run in the browser:
 pnpm transpile
 ```
 
-<description>
+<details>
 <summary>Expected output</summary>
 
 You should see output like the following:
@@ -229,7 +229,7 @@ You should see output like the following:
  - dist/transpiled/interfaces/wasi-random-random.d.ts           0.14 KiB
 ```
 
-</description>
+</details>
 
 The most important file in the generated bundle is `dist/transpiled/component.js` -- this serves
 as the browser entrypoint for the functionality we've just transpiled.
@@ -244,7 +244,7 @@ To serve the demo code that makes use of the transpiled code, we can run:
 pnpm serve
 ```
 
-<description>
+<details>
 <summary>Expected output</summary>
 
 You should see output like the following:
@@ -274,7 +274,7 @@ Available on:
 Hit CTRL-C to stop the server
 ```
 
-</description>
+</details>
 
 This will start [`http-server`][http-server] (a commonly used utility web server) and serve the project directory.
 
