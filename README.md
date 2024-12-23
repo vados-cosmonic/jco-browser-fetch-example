@@ -101,7 +101,7 @@ Hit CTRL-C to stop the server
 
 </details>
 
-**At this point, you should be able to view the rendered `demo.html` by visiting `localhost:8080` in your
+**At this point, you should be able to view the rendered `demo.html` by visiting `localhost:8080/demo.html` in your
 favorite browser.**
 
 ## Step-by-step
