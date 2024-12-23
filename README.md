@@ -31,7 +31,7 @@ pnpm go
 You should see output like the following:
 
 <details>
-<summary>Expected output</summary>
+<summary><h4>Expected output</h4></summary>
 
 ```
 ❯ pnpm go
@@ -127,7 +127,7 @@ pnpm build:component
 ```
 
 <details>
-<summary>Expected output</summary>
+<summary><h4>Expected output</h4></summary>
 
 You should see output like the following:
 
@@ -194,7 +194,7 @@ pnpm transpile
 ```
 
 <details>
-<summary>Expected output</summary>
+<summary><h4>Expected output</h4></summary>
 
 You should see output like the following:
 
@@ -245,7 +245,7 @@ pnpm serve
 ```
 
 <details>
-<summary>Expected output</summary>
+<summary><h4>Expected output</h4></summary>
 
 You should see output like the following:
 
